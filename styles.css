@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+  /*background:#C4E3D1;*/
+  background: url('http://www.pulsarmedia.eu/data/media/3/Turquoise_Mosaic_Wallpaper_2560X1600.jpg');
+  font-family: Verdana;
+}
+.column {
+  float: left;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+  padding: 10px;
+}
+.first {
+  width:300px;
+}
+.second {
+  width:600px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+#container {
+  margin: 0 auto;
+  width:1050px;
+}
+.userName{
+  color:#092D50;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+.userMSG{
+  padding-left: 15px;
+  width:420px;
+  float:left;
+  min-height: 20px;
+}
+.timeStamp{
+  color:#999;
+  font-size: 0.8em;
+  float:left;
+}
+.topbar {
+  width:100%;
+  height:25px;
+  background: #092D50;
+  padding: 15px;
+}
+#newTweet {
+  width: 260px;
+  margin: 15px;
+}
+.button {
+  font-size: 15px;
+  height:25px;
+  width:60px;
+  color:white;
+  float:right;
+  background: -webkit-linear-gradient(top, rgb(15, 15, 127) 0%, rgb(31, 68, 184) 50%, rgb(15, 15, 127) 100%);
+  border-radius: 8px;
+  border: 0px outset buttonface;
+  float:right;
+}
+h1 {
+  color:#0F0F7F;
+  text-align: center;
+  width: 100%;
+}
+#logo {
+  margin-bottom: 20px;
+  width:150px;
+  height:80px;
+}
+#doYou {
+  color:grey;
+  padding-left: 15px;
+}
+.backButton {
+  margin-top: -70px;
+  margin-left: 10px;
+}
+.newTweets {
+  color: gray;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.showNewTweets {
+  color: lightgray;
+  padding-left: 10px;
+}
+.user {
+  color: white;
+  font-size: 1.1em;
+  padding-right: 15px;
+}
+.userInfo {
+  color: gray;
+  font-size: 0.7em;
+  margin-bottom: 5px;
+  padding-right: 5px;
+}
+.showOldTweets {
+  color: lightgray;
+}
+.oldTweets {
+  text-align: center;
+}
+

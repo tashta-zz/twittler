@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="twitter_data.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="moment.min.js"></script>
+  <title>Better than Twitter</title>
+</head>
+ <body>
+  <div class="topbar">
+    <span class="user">tatiana-andreas</span>
+    <span class="userInfo">tweets <span class="userTweetsCount">0</span></span>
+    <span class="userInfo">following 4</span>
+    <span class="userInfo">followers 0</span>
+  </div>
+  <div id="container">
+    <section class="column first">
+      <img id="logo" src="http://cf.sketchfu.com/i/50609.png" />
+      <h1>Better than Twitter</h1>
+      <p id="doYou">Hi! Do you want to tweet about something?</p>
+      <form>
+        <textarea id="newTweet" name="newTweet"></textarea><br>
+        <input class='button' id="tweetButton" type="button" value="Add"/>
+      </form>
+    </section>
+    <section class="column second">
+      <div  class="logHeader">
+        <h1>Tweet Log</h1>
+        <input class='button backButton' type='button' value='Home' />
+      </div>
+      <p class="newTweets">You have <span class="newTweetsCount">0</span> new tweets  <a href="/" class="showNewTweets">Show new tweets</a></p>
+      <div id="tweet-log"></div>
+      <p class="oldTweets"><a href="/" class="showOldTweets">Show older tweets</a></p>
+    </section>
+  </div>
+  <script type="text/javascript" src="twitter_ui.js"></script>
+ </body>
+</html>
